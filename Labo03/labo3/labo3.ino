@@ -272,9 +272,9 @@ void loop() {
   float tempC = lireTemperature(rawCapteur);
 
   // Logique ventilation
-  if (tempC > 25.0) {
+  if (tempC > 35.0) {
     coolingOn = true;
-  } else if (tempC < 20.0) {
+  } else if (tempC < 30.0) {
     coolingOn = false;
   }
   digitalWrite(PIN_LED, coolingOn);
