@@ -247,7 +247,6 @@ void setup() {
   digitalWrite(PIN_LED, LOW);
 
   lcd.begin();
-  lcd.backlight();
   lcd.createChar(0, charPerso);
 }
 
