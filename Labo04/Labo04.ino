@@ -1,6 +1,6 @@
 // ============================================================
 // LABO 04
-// Étudiant : GACHARD - DA 6357132
+// Étudiant :  Lionel G. - DA 6357132
 // Cours : 420-0SG-SW - Développement de systèmes embarqués
 // ============================================================
 #include <Wire.h>
