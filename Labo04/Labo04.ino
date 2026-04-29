@@ -18,13 +18,13 @@ LCD_I2C lcd(0x27, 16, 2);
 const int PIN_SERVO = 3;
 const int PIN_BTN_OUVRIR = 4;
 const int PIN_BTN_URGENCE = 5;
-const int ANGLE_FERME  = 10;
+const int ANGLE_FERME = 10;
 const int ANGLE_OUVERT = 170;
 const int DISTANCE_SEUIL = 3;           
-const unsigned int DELAI_OUVERT  = 10000; 
-const unsigned int DELAI_SERVO   = 20;    
+const unsigned int DELAI_OUVERT = 10000; 
+const unsigned int DELAI_SERVO = 20;    
 const unsigned int DELAI_CAPTEUR = 100;   
-const unsigned int DEBOUNCE_MS   = 200;
+const unsigned int DEBOUNCE_MS = 200;
 
 enum Etat { FERMEE, OUVERTURE, OUVERTE, FERMETURE, URGENCE };
 Etat etatCourant = FERMEE;
